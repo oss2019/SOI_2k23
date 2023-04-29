@@ -5,7 +5,10 @@ import Image from 'next/image'
 export default function Hero() {
   return <>
     <div className={`${styles.heroWrapper}`}>
-      <Image src='/hero/hero-main.png' layout='fill' />
+      <div className={styles.heroBgContainer}>
+        <Image src='/hero/hero-bg.svg' fill objectFit='cover' />
+      </div>
+      
       <div className={`${styles.hero}`}>
         <div className={styles.heroContentWrapper}>
           <div className={styles.heroMain}>

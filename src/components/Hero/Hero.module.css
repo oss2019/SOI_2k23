@@ -1,8 +1,10 @@
 .heroWrapper{
+  position:relative;
   width:100vw;
   height:100vh;
   overflow-x:hidden;
   color: var(--text-black);
+  background-color: var(--primary-yellow);
 }
 
 .hero{
@@ -23,6 +25,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 
 .heroMain{
   width:100%;

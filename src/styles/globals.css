@@ -16,10 +16,11 @@
    /*-------Major Component Colors-----------*/
   --primary-purple:rgb(144, 19, 254);
   --primary-gray:rgb(201, 209, 222);
-  --primary-dark-blue:rgba(12,29,57,255);
+  --primary-dark-blue:rgb(12,29,57);
   --light-purple:rgba(195,201,252,255);
   --medium-purple:rgb(220,196,252);
   --light-green:rgb(220,238,227);
+  --primary-yellow:rgb(255, 245, 109);
 
   /*---------Fonts--------------------*/
   --font-fancy:'Inconsolata', monospace;
