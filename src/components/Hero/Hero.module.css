@@ -1,7 +1,7 @@
 .heroWrapper{
   position:relative;
   width:100vw;
-  height:100vh;
+  height:calc(100vh + 6rem);
   overflow-x:hidden;
   color: var(--text-black);
   background-color: var(--primary-yellow);
@@ -20,7 +20,7 @@
   position: absolute;
   width:100%;
   display:flex;
-  top:55%;
+  top:50%;
   transform: translateY(-50%);
   align-items: center;
   justify-content: space-between;
@@ -60,6 +60,9 @@
   height:500px;
 }
 
+
+
+/*------------------Overview Section --------------------*/
 .aboutWrapper{
   background-color: var(--medium-purple);
   padding:8rem 0;
@@ -69,7 +72,7 @@
   position: relative;
   max-width: 700px;
   margin:0 auto;
-  background-color: var(--light-green);
+  background-color: var(--text-white);
   padding:2rem 2rem 4rem;
   border-radius: 24px;
   border:2px solid var(--text-black);

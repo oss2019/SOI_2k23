@@ -1,14 +1,15 @@
  .navBarWrapper{
    width:100%;
    height:6rem;
-  z-index:99; 
-  display: flex;
+   z-index:99; 
+   display: flex;
    color:var(--text-black);
    align-items: center;
    position: fixed;
    top:0;
    background-color: var(--text-white);
    border-bottom: 3px solid var(--text-black);
+   transition: all 0.2s ease-in-out;
 }
 
  .navBarMain{
@@ -33,7 +34,7 @@
  .option{
    cursor: pointer;
    font-weight: 500;
-   font-size:1;
+   font-size:1.25rem;
    transition: all 0.2s ease-in-out;
  }
 
@@ -203,6 +204,9 @@
 
 
 @media(max-width:900px){
+  .navBarWrapper{
+    height: 4rem;
+  }
   .navBarMain{
      padding:0 1.5rem;
    }

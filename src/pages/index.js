@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '@/components/Layout/Layout'
 import Hero from '@/components/Hero/Hero'
+import Events from '@/components/Events/Events'
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Layout>
         <Hero />
+        <Events />
       </Layout>
     </>
   )
