@@ -57,6 +57,41 @@
   height:500px;
 }
 
+.aboutWrapper{
+  background-color: var(--medium-purple);
+  padding:8rem 0;
+}
+
+.aboutMain{
+  position: relative;
+  max-width: 700px;
+  margin:0 auto;
+  background-color: var(--light-green);
+  padding:2rem 2rem 4rem;
+  border-radius: 24px;
+  border:2px solid var(--text-black);
+  box-shadow: 6px 6px 0 0 var(--text-black);
+}
+
+.aboutStyleStar{
+  position: absolute;
+  width:100px;
+  height:100px;
+  top:-50px;
+  left:-40px;
+}
+
+.aboutTitle{
+  margin:1rem 0;
+  text-align: center;
+}
+
+.aboutContent{
+  line-height: 1.25rem;
+}
+
+
+
 @media(max-width:900px){
   .hero{
     position: relative;

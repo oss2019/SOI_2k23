@@ -20,16 +20,16 @@ export default function AppBar({ current }) {
               </div>
             </div>
             <div className={styles.option}>
-              <div>Speakers</div>
+              <div>Events</div>
             </div>
             <div className={styles.option}>
               <div>
-                Agenda
+                Timeline
               </div>
             </div>
             <div className={styles.option}>
               <div>
-                Venue
+                Team
               </div>
             </div>
             <div className={styles.option}>

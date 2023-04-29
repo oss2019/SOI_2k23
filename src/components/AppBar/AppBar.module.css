@@ -225,15 +225,19 @@
      padding-top:10rem;
      padding-right:2rem;
      transition:all 0.7s ease-in-out;
+     border-left:4px solid var(--text-black);
   }
 
    .option{
      text-align: right;
      font-size: 2rem;
+     margin-left:1.5rem;
+     padding-top:1rem;
   }
 
    .option + .option{
-     margin-top:1.5rem;
+     margin-top:1rem;
+     
    }
 
    .activeSidebar{
