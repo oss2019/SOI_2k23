@@ -32,7 +32,7 @@ export default function AppBar({ current }) {
   };
 
   return (
-    <>
+    <div id="homeId#69">
       <nav
         className={styles.navBarWrapper}
         style={{ top: visible ? 0 : "-6rem" }}
@@ -78,6 +78,6 @@ export default function AppBar({ current }) {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 }

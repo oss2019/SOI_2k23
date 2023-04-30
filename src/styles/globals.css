@@ -47,12 +47,3 @@ html{
 }
 
 
-
-@media(max-width:900px){
-  .page-wrapper{
-    position: relative;
-    width:calc(100% - 60px);
-    margin:0 auto;
-    max-width: 1100px;
-  }
-}
