@@ -47,6 +47,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
+        <div className={styles.aboutBgWrapper}>
+          <Image src='/hero/hero-bg-2.svg' fill objectFit="cover" />
+        </div>
       </div>
     </>
   );

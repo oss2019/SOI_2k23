@@ -1,12 +1,36 @@
+import Image from "next/image";
+import GSAP from 'gsap'
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+import { useEffect, useRef } from 'react'
 import styles from "./Events.module.css";
 import EventCard from "./EventCard/EventCard";
 import EventsData from "./data";
 
 export default function Events() {
-  console.log(EventsData);
+  const SunRef = useRef()
+  GSAP.registerPlugin(ScrollTrigger)
+  useEffect(() => {
+    const Sun = SunRef.current
+    const timeLine = GSAP.timeline({
+      scrollTrigger:{
+        trigger:Sun,
+        start:'top bottom',
+        end:'bottom top',
+        scrub:1
+      }
+    })
+
+    timeLine.to(Sun, {
+      rotation:30
+    })
+  },[])
+
   return (
     <>
       <div id="eventsId#123" className={styles.eventsWrapper}>
+      <div className={styles.eventSunWrapper} ref={SunRef}>
+        <Image src='/Events/events-sun-1.svg' fill />
+      </div>
         <div className={`${styles.eventsMain} page-wrapper`}>
           <div className={styles.eventsHeading}>
             <h1>Events</h1>
