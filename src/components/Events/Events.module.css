@@ -21,6 +21,19 @@
   left:20px;
 }
 
+.text_block{
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0 0 black;
+  line-height: 1;
+  max-width: 100%; 
+}
+
 @media(max-width:900px){
   .eventSunWrapper{
     width:150px;

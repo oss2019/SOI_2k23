@@ -33,7 +33,7 @@ export default function Events() {
       </div>
         <div className={`${styles.eventsMain} page-wrapper`}>
           <div className={styles.eventsHeading}>
-            <h1>Events</h1>
+            <div className={styles.text_block}>Events</div>
           </div>
           <div className={styles.eventsCardWrapper}>
             {EventsData.map((data, index) => {
