@@ -16,8 +16,12 @@
    /*-------Major Component Colors-----------*/
   --primary-purple:rgb(144, 19, 254);
   --primary-gray:rgb(201, 209, 222);
-  --primary-dark-blue:rgba(12,29,57,255);
+  --primary-dark-blue:rgb(12,29,57);
   --light-purple:rgba(195,201,252,255);
+  --medium-purple:rgb(220,196,252);
+  --light-green:rgb(220,238,227);
+  --primary-yellow:rgb(255, 245, 109);
+  --medium-yellow:rgb(255, 211, 110);
 
   /*---------Fonts--------------------*/
   --font-fancy:'Inconsolata', monospace;
@@ -31,19 +35,24 @@ body{
   font-smooth: always;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 .page-wrapper{
-  width:100%;
+  position: relative;
+  width:calc(100% - 160px);
   margin:0 auto;
-  max-width:1600px;
-  padding-right:8rem;
-  padding-left:8rem;
+  max-width: 1100px;
 }
 
 
 
 @media(max-width:900px){
   .page-wrapper{
-    padding-right:1.5rem;
-    padding-left:1.5rem;
+    position: relative;
+    width:calc(100% - 60px);
+    margin:0 auto;
+    max-width: 1100px;
   }
 }

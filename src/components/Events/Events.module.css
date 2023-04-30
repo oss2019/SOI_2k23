@@ -1,0 +1,13 @@
+.eventsWrapper{
+  background-color: var(--primary-yellow);
+}
+
+.eventsMain{
+  padding:4rem 0;
+}
+
+.eventsHeading{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom:4rem;
+}
