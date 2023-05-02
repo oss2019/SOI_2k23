@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import classes from "./Footer.module.css";
 
 const Footer = () => {
@@ -17,16 +18,12 @@ const Footer = () => {
     <div>
       <div className={classes.footer}>
         <div className={classes.footerDiv}>
-          <div className={classes.footerwrapper}>
+          <div className={classes.footerImageWrapper}>
             <a href="/">
-              <img
-                className={classes.logoImg}
-                src="https://oss2019.github.io/summer-of-innovation-2021/Images/oss_logo.png"
-                alt="summer of innovation logo"
-              />
+              <Image src="/Footer/oss_logo.png" fill />
             </a>
           </div>
-          <div className={classes.footerwrapper}>
+          <div className={classes.footerLinksWrapper}>
             <div
               onClick={() => handleOnClick("homeId#69")}
               aria-current="page"
@@ -42,22 +39,24 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className={classes.footerwrapper}>
-            <a
-              href="mailto:contact@cccreative.design"
-              className={classes.footerlink}
-            >
-              contact@cccreative.design
-            </a>
-            <br />
-            <br />
-
-            <a href="tel:‪(970)627-7286‬" className={classes.footerlink}>
-              <strong className="bold-text-3">‪(970) 627-7286‬</strong>
-            </a>
+          <div className={classes.footerContactWrapper}>
+            <div>
+              <a
+                href="mailto:contact@cccreative.design"
+                className={classes.footerlink}
+              >
+                contact@cccreative.design
+              </a>
+            </div>
+            <div>
+              <a href="tel:‪(970)627-7286‬" className={classes.footerlink}>
+                <strong className="bold-text-3">‪(970) 627-7286‬</strong>
+              </a>
+            </div>
+            
           </div>
-          <div className={classes.rightfooterwrapper}>
-            <div className={classes.footerwrapper}>
+          <div className={classes.rightFooterWrapper}>
+            <div className={classes.footerIconsWrapper}>
               <a
                 href="http://www.dribbble.com/cc-creative"
                 target="_blank"
@@ -106,8 +105,8 @@ const Footer = () => {
                 />
               </a>
             </div>
-            <div className={`${classes.footerwrapper} ${classes.footerlink}`}>
-              <p> © Copyright - {year} SOI all right reserved</p>
+            <div>
+              © Copyright - {year} SOI all right reserved
             </div>
           </div>
         </div>
