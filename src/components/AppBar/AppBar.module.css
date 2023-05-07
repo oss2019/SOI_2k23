@@ -209,10 +209,10 @@
 
 @media(max-width:900px){
   .navBarWrapper{
-    height: 4rem;
+    height: 5rem;
   }
   .navBarMain{
-     padding:0 1.5rem;
+     padding:0 0.5rem;
    }
 
    .hamBurgerWrapper{
