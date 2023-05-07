@@ -32,11 +32,17 @@
   }
 
  .option{
-   cursor: pointer;
-   font-weight: 500;
-   font-size:1.25rem;
-   transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 500;
+  font-size:1.25rem;
+  position: relative;
  }
+
+ .option a {
+  text-decoration: none;
+  color: black;
+ }
+
  .logoImg{
   width: 200;
   height: 150;
@@ -50,9 +56,20 @@
    color:var(--primary-purple);
  }
 
- .option:hover{
-   color:var(--primary-purple);
-}
+ .option::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-purple);
+  transition: all 0.2s ease-in-out;
+ }
+ 
+ .option:hover::before{
+  width: 100%;
+ }
 
 
  /*------------Hamburger Implementations-------------------*/
