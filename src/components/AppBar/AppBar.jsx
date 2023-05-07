@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "./AppBar.module.css";
+import Image from "next/image";
 
 export default function AppBar({ current }) {
   const [active, setActive] = useState(false);
@@ -39,7 +40,13 @@ export default function AppBar({ current }) {
       >
         <div className={styles.navBarMain}>
           <div className={styles.logoWrapper}>
-            <h1>SOI</h1>
+            {/* <h1>SOI</h1> */}
+            <Image
+              src="/SOI-logo.png"
+              width={80}
+              height={50}
+              alt="Picture of the author"
+            />
           </div>
           <div className={styles.optionsWrapper}>
             <div
