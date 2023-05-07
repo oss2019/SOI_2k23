@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '@/components/Layout/Layout'
 import Hero from '@/components/Hero/Hero'
 import Events from '@/components/Events/Events'
+import Timeline from '@/components/Timeline/Timeline'
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Layout>
         <Hero />
         <Events />
+        <Timeline />
       </Layout>
     </>
   )

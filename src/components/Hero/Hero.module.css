@@ -65,7 +65,7 @@
 /*------------------Overview Section --------------------*/
 .aboutWrapper{
   position: relative;
-  background-color: var(--medium-purple);
+  background-color: var(--primary-violet);
   padding:8rem 0;
 }
 
