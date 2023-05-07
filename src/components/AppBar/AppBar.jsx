@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "./AppBar.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AppBar({ current }) {
   const [active, setActive] = useState(false);
@@ -55,7 +56,9 @@ export default function AppBar({ current }) {
               }`}
             >
               <div className={styles.option}>
-                <div>Home</div>
+                <Link href="/">
+                  <div>Home</div>
+                </Link>
               </div>
               <div className={styles.option}>
                 <div onClick={handleClickScroll}>Events</div>
@@ -64,7 +67,9 @@ export default function AppBar({ current }) {
                 <div>Timeline</div>
               </div>
               <div className={styles.option}>
-                <div>Team</div>
+                <Link href="/team">
+                  <div>Team</div>
+                </Link>
               </div>
               <div className={styles.option}>
                 <div>Contact</div>
