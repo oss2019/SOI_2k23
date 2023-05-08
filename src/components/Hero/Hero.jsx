@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div className={`${styles.heroWrapper}`}>
+      <div className={`${styles.heroWrapper}`} id="hero69">
         <div className={styles.heroBgContainer}>
           <Image src="/hero/hero-bg.svg" fill objectFit="cover" />
         </div>
@@ -23,7 +23,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </div>
+      </div >
       <div className={styles.aboutWrapper}>
         <div className={`page-wrapper`}>
           <div className={styles.aboutMain}>

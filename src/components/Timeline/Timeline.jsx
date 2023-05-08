@@ -7,15 +7,15 @@ import timeLineData from "./timeline_data"
 import "react-vertical-timeline-component/style.min.css"
 
 
-export default function Timeline(){
+export default function Timeline() {
   return <>
-    <div className={styles.timelineWrapper}>
+    <div className={styles.timelineWrapper} id="timeline420">
       <div className={`${styles.timelineMain} page-wrapper`}>
-          <div className={styles.timelineHeading}>
-            <div className={styles.text_block}>
-              <h2>Timeline</h2>
-            </div>
+        <div className={styles.timelineHeading}>
+          <div className={styles.text_block}>
+            <h2>Timeline</h2>
           </div>
+        </div>
         <div className={styles.verticalTimelineMain}>
           <VerticalTimeline>
             {
@@ -25,7 +25,7 @@ export default function Timeline(){
                     key={data.key}
                     date={data.date}
                     dateClassName="date"
-                    className={`${data.key/2 ? "timeline-right" : "timeline-left"}`}
+                    className={`${data.key / 2 ? "timeline-right" : "timeline-left"}`}
                   >
                     <h3 className="vertical-timeline-element-title">
                       {data.title}
@@ -41,7 +41,7 @@ export default function Timeline(){
 
           </VerticalTimeline>
         </div>
-        
+
       </div>
     </div>
   </>

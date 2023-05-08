@@ -15,7 +15,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <div>
+    <div id="footer123">
       <div className={classes.footer}>
         <div className={classes.footerDiv}>
           <div className={classes.footerImageWrapper}>
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className={classes.footerLinksWrapper}>
             <div
-              onClick={() => handleOnClick("homeId#69")}
+              onClick={() => handleOnClick("hero69")}
               aria-current="page"
               className={`${classes.footerlink} ${classes.navLink}`}
             >
@@ -53,7 +53,7 @@ const Footer = () => {
                 <strong className="bold-text-3">‪(970) 627-7286‬</strong>
               </a>
             </div>
-            
+
           </div>
           <div className={classes.rightFooterWrapper}>
             <div className={classes.footerIconsWrapper}>

@@ -25,13 +25,9 @@ export default function AppBar({ current }) {
     setActive(!active);
   };
 
-  const handleClickScroll = () => {
-    const element = document.getElementById("eventsId#123");
-    if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+
+
+
 
   return (
     <div id="homeId#69">
@@ -51,20 +47,25 @@ export default function AppBar({ current }) {
           </div>
           <div className={styles.optionsWrapper}>
             <div
-              className={`${styles.optionsMenu} ${
-                active && styles.activeSidebar
-              }`}
+              className={`${styles.optionsMenu} ${active && styles.activeSidebar
+                }`}
             >
               <div className={styles.option}>
-                <Link href="/">
+                <Link href="/#hero69" scroll={false}>
                   <div>Home</div>
                 </Link>
               </div>
               <div className={styles.option}>
-                <div onClick={handleClickScroll}>Events</div>
+                <Link href="/#eventsId#123" scroll={false}>
+                  <div>Events</div>
+                </Link>
+
               </div>
               <div className={styles.option}>
-                <div>Timeline</div>
+                <Link href="/#timeline420" scroll={false}>
+                  <div>Timeline</div>
+                </Link>
+
               </div>
               <div className={styles.option}>
                 <Link href="/team">
@@ -72,14 +73,16 @@ export default function AppBar({ current }) {
                 </Link>
               </div>
               <div className={styles.option}>
-                <div>Contact</div>
+                <Link href="/#footer123" scroll={false}>
+                  <div>Contact</div>
+                </Link>
+
               </div>
             </div>
             <div className={styles.hamBurgerWrapper}>
               <div
-                className={`${styles.hamburger} ${
-                  active ? styles.active : styles["not-active"]
-                }`}
+                className={`${styles.hamburger} ${active ? styles.active : styles["not-active"]
+                  }`}
                 onClick={hamBurgerClick}
               >
                 <span className={styles.spans}></span>
