@@ -22,7 +22,7 @@ export default function Timeline() {
               timeLineData.map((data) => {
                 return (
                   <VerticalTimelineElement
-                    key={data.key}
+                    key={data.id}
                     date={data.date}
                     dateClassName="date"
                     className={`${data.key / 2 ? "timeline-right" : "timeline-left"}`}
