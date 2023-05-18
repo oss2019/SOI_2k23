@@ -40,9 +40,10 @@ export default function AppBar({ current }) {
             {/* <h1>SOI</h1> */}
             <Image
               src="/SOI-logo.png"
-              width={80}
+              width={70}
               height={50}
               alt="Picture of the author"
+              priority
             />
           </div>
           <div className={styles.optionsWrapper}>

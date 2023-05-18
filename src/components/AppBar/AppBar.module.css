@@ -5,6 +5,7 @@
    display: flex;
    color:var(--text-black);
    align-items: center;
+   justify-content: center;
    position: fixed;
    top:0;
    background-color: var(--text-white);
@@ -16,7 +17,6 @@
    display: flex;
    width:100%;
    max-width: 1600px;
-   margin:auto auto;
    padding:0rem 4rem;
    align-items: center;
    justify-content: space-between;
@@ -229,7 +229,8 @@
     height: 5rem;
   }
   .navBarMain{
-     padding:0 0.5rem;
+    padding:0 0.5rem;
+    
    }
 
    .hamBurgerWrapper{

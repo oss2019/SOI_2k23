@@ -1,12 +1,35 @@
 import styles from "./Hero.module.css";
 import Image from "next/image";
+import { useRef, useEffect } from "react";
+import GSAP from 'gsap'
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
 export default function Hero() {
+
+  const wheelRef = useRef()
+
+  GSAP.registerPlugin(ScrollTrigger)
+  useEffect(() => {
+    const wheel = wheelRef.current
+    const timeLine = GSAP.timeline({
+      scrollTrigger:{
+        trigger:wheel,
+        start:'top bottom',
+        end:'bottom top',
+        scrub:1
+      }
+    })
+
+    timeLine.to(wheel, {
+      rotation:-30
+    })
+  },[])
+
   return (
     <>
       <div className={`${styles.heroWrapper}`} id="hero69">
         <div className={styles.heroBgContainer}>
-          <Image src="/hero/hero-bg.svg" fill objectFit="cover" />
+          <Image src="/hero/hero-bg.svg" priority fill style={{objectFit:"cover"}}/>
         </div>
 
         <div className={`${styles.hero}`}>
@@ -19,16 +42,19 @@ export default function Hero() {
               </div>
             </div>
             <div className={styles.heroArtWrapper}>
-              <Image src="/hero/hero-art.svg" layout="fill" />
+              <Image src="/hero/hero-art.svg" fill priority />
             </div>
           </div>
         </div>
       </div >
       <div className={styles.aboutWrapper}>
+        <div className={styles.aboutWheelWrapper} ref={wheelRef}>
+          <Image src='/Events/Blue_Wheel_Spcok.svg' fill priority />
+        </div>
         <div className={`page-wrapper`}>
           <div className={styles.aboutMain}>
             <div className={styles.aboutStyleStar}>
-              <Image src="/hero/style-star.svg" layout="fill" />
+              <Image src="/hero/style-star.svg" fill priority />
             </div>
             <div className={styles.aboutTitle}>
               <h1>Overview</h1>
@@ -48,7 +74,7 @@ export default function Hero() {
           </div>
         </div>
         <div className={styles.aboutBgWrapper}>
-          <Image src='/hero/hero-bg-2.svg' fill objectFit="cover" />
+          <Image src='/hero/hero-bg-2.svg' fill style={{objectFit:"cover"}} priority />
         </div>
       </div>
     </>

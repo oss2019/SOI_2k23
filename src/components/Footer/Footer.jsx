@@ -20,7 +20,7 @@ const Footer = () => {
         <div className={classes.footerDiv}>
           <div className={classes.footerImageWrapper}>
             <a href="/">
-              <Image src="/Footer/oss_logo.png" fill />
+              <Image src="/Footer/oss_logo.png" fill priority />
             </a>
           </div>
           <div className={classes.footerLinksWrapper}>

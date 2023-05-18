@@ -8,6 +8,7 @@ import EventsData from "./data";
 
 export default function Events() {
   const SunRef = useRef()
+  
   GSAP.registerPlugin(ScrollTrigger)
   useEffect(() => {
     const Sun = SunRef.current
@@ -25,13 +26,15 @@ export default function Events() {
     })
   },[])
 
+  
+
   return (
     <>
       <div id="eventsId#123" className={styles.eventsWrapper}>
       <div className={styles.eventSunWrapper} ref={SunRef}>
-        <Image src='/Events/events-sun-1.svg' fill />
+        <Image src='/Events/events-sun-1.svg' fill priority />
       </div>
-        <div className={`${styles.eventsMain} page-wrapper`}>
+      <div className={`${styles.eventsMain} page-wrapper`}>
           <div className={styles.eventsHeading}>
             <div className={styles.text_block}>
               <h2>Events</h2>

@@ -26,27 +26,28 @@ export default function Teams() {
                           width={200}
                           height={200}
                           className={styles.memberImage}
+                          priority
                         />
                       </div>
                       <div className={styles.memberInfo}>
                         <h3>{member.name}</h3>
                         <div className={styles.memberLinks}>
                           <a href={`mailto:${member.email}`} className={styles.linkImageWrapper + " " + styles.email}>
-                            <Image className={styles.linkImage} src='/Team/Logo/gmail1.png' width={20} height={20}/>
+                            <Image className={styles.linkImage} src='/Team/Logo/gmail1.png' width={20} height={20} priority/>
                           </a>
                           {member.linkedin && (
                           <a className={styles.linkImageWrapper + " " + styles.linkedin} href={member.linkedin} target="_blank" rel="noopener noreferrer">
-                            <Image className={styles.linkImage} src='/Team/Logo/linkedin1.png' width={20} height={20} />
+                            <Image className={styles.linkImage} src='/Team/Logo/linkedin1.png' width={20} height={20} priority />
                           </a>
                           )}
                           {member.twitter && (
                           <a className={styles.linkImageWrapper + " " + styles.twitter} href={member.twitter} target="_blank" rel="noopener noreferrer">
-                            <Image className={styles.linkImage} src='/Team/Logo/twitter1.png' width={20} height={20} />
+                            <Image className={styles.linkImage} src='/Team/Logo/twitter1.png' width={20} height={20} priority />
                           </a>
                           )}
                           {member.instagram && (
                           <a className={styles.linkImageWrapper + " " + styles.instagram} href={member.instagram} target="_blank" rel="noopener noreferrer">
-                            <Image className={styles.linkImage} src='/Team/Logo/instagram.png' width={20} height={20} />
+                            <Image className={styles.linkImage} src='/Team/Logo/instagram.png' width={20} height={20} priority />
                           </a>
                           )}
                         </div>
