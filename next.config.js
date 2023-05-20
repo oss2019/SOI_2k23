@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-};
+  basePath: "/SOI_2k23",
+  assetPrefix: "/SOI_2k23",
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
