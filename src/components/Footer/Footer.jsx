@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import classes from "./Footer.module.css";
+import Link from "next/link";
 
 const Footer = () => {
   const handleOnClick = (id) => {
@@ -19,7 +20,7 @@ const Footer = () => {
       <div className={classes.footer}>
         <div className={classes.footerDiv}>
           <div className={classes.footerImageWrapper}>
-            <a href="/">
+            <a href="#">
               <Image src="/Footer/oss_logo.png" fill priority />
             </a>
           </div>
@@ -53,7 +54,6 @@ const Footer = () => {
                 <strong className="bold-text-3">‪(970) 627-7286‬</strong>
               </a>
             </div>
-
           </div>
           <div className={classes.rightFooterWrapper}>
             <div className={classes.footerIconsWrapper}>
@@ -105,9 +105,7 @@ const Footer = () => {
                 />
               </a>
             </div>
-            <div>
-              © Copyright - {year} SOI all right reserved
-            </div>
+            <div>© Copyright - {year} SOI all right reserved</div>
           </div>
         </div>
       </div>

@@ -1,35 +1,39 @@
 import styles from "./Hero.module.css";
 import Image from "next/image";
 import { useRef, useEffect } from "react";
-import GSAP from 'gsap'
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+import GSAP from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 export default function Hero() {
+  const wheelRef = useRef();
 
-  const wheelRef = useRef()
-
-  GSAP.registerPlugin(ScrollTrigger)
+  GSAP.registerPlugin(ScrollTrigger);
   useEffect(() => {
-    const wheel = wheelRef.current
+    const wheel = wheelRef.current;
     const timeLine = GSAP.timeline({
-      scrollTrigger:{
-        trigger:wheel,
-        start:'top bottom',
-        end:'bottom top',
-        scrub:1
-      }
-    })
+      scrollTrigger: {
+        trigger: wheel,
+        start: "top bottom",
+        end: "bottom top",
+        scrub: 1,
+      },
+    });
 
     timeLine.to(wheel, {
-      rotation:-30
-    })
-  },[])
+      rotation: -30,
+    });
+  }, []);
 
   return (
     <>
       <div className={`${styles.heroWrapper}`} id="hero69">
         <div className={styles.heroBgContainer}>
-          <Image src="/hero/hero-bg.svg" priority fill style={{objectFit:"cover"}}/>
+          <Image
+            src="/hero/hero-bg.svg"
+            priority
+            fill
+            style={{ objectFit: "cover" }}
+          />
         </div>
 
         <div className={`${styles.hero}`}>
@@ -46,10 +50,10 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </div >
+      </div>
       <div className={styles.aboutWrapper}>
         <div className={styles.aboutWheelWrapper} ref={wheelRef}>
-          <Image src='/Events/Blue_Wheel_Spcok.svg' fill priority />
+          <Image src="/Events/Blue_Wheel_Spcok.svg" fill priority />
         </div>
         <div className={`page-wrapper`}>
           <div className={styles.aboutMain}>
@@ -61,7 +65,7 @@ export default function Hero() {
             </div>
             <div className={styles.aboutContent}>
               The third edition of Summer of Innovation is a platform for honing
-              one's technical skills and promoting tech culture in our
+              one&rsquo;s technical skills and promoting tech culture in our
               institute. Lasting 3 months, the event comprises of problem
               statements from multiple domains and the participants are allowed
               to take part in any number of them. The event is a result of the
@@ -74,7 +78,12 @@ export default function Hero() {
           </div>
         </div>
         <div className={styles.aboutBgWrapper}>
-          <Image src='/hero/hero-bg-2.svg' fill style={{objectFit:"cover"}} priority />
+          <Image
+            src="/hero/hero-bg-2.svg"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+          />
         </div>
       </div>
     </>
