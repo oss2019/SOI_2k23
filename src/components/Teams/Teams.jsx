@@ -64,7 +64,7 @@ export default function Teams() {
                             >
                               <Image
                                 className={styles.linkImage}
-                                src="/Team/Logo/linkedin1.png"
+                                src={prefix + "/Team/Logo/linkedin1.png"}
                                 width={20}
                                 height={20}
                                 priority

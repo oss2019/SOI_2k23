@@ -31,7 +31,7 @@ export default function Hero() {
       <div className={`${styles.heroWrapper}`} id="hero69">
         <div className={styles.heroBgContainer}>
           <Image
-            src={`${prefix + "/hero/hero-bg.svg"}`}
+            src={`${prefix + "/Hero/hero-bg.svg"}`}
             priority
             fill
             style={{ objectFit: "cover" }}
@@ -48,7 +48,7 @@ export default function Hero() {
               </div>
             </div>
             <div className={styles.heroArtWrapper}>
-              <Image src={`${prefix + "/hero/hero-art.svg"}`} fill priority />
+              <Image src={`${prefix + "/Hero/hero-art.svg"}`} fill priority />
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Hero() {
         <div className={`page-wrapper`}>
           <div className={styles.aboutMain}>
             <div className={styles.aboutStyleStar}>
-              <Image src={`${prefix + "/hero/style-star.svg"}`} fill priority />
+              <Image src={`${prefix + "/Hero/style-star.svg"}`} fill priority />
             </div>
             <div className={styles.aboutTitle}>
               <h1>Overview</h1>
@@ -85,7 +85,7 @@ export default function Hero() {
         </div>
         <div className={styles.aboutBgWrapper}>
           <Image
-            src={`${prefix + "/hero/hero-bg-2.svg"}`}
+            src={`${prefix + "/Hero/hero-bg-2.svg"}`}
             fill
             style={{ objectFit: "cover" }}
             priority
