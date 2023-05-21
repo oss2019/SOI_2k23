@@ -30,6 +30,8 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: /SOI_2k23
       - run: npm run export
+        env:
+          NEXT_PUBLIC_BASE_PATH: /SOI_2k23
       - run: touch ./out/.nojekyll
 
       - name: Deploy 🚀
