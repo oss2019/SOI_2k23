@@ -1,19 +1,21 @@
-import React from "react";
-import Image from "next/image";
-import classes from "./Footer.module.css";
-import Link from "next/link";
+import React from "react"
+import Image from "next/image"
+import classes from "./Footer.module.css"
+import Link from "next/link"
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
 
 const Footer = () => {
   const handleOnClick = (id) => {
-    const element = document.getElementById(id);
+    const element = document.getElementById(id)
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "smooth" })
     }
-  };
+  }
 
-  const date = new Date();
-  const year = date.getFullYear();
+  const date = new Date()
+  const year = date.getFullYear()
 
   return (
     <div id="footer123">
@@ -21,7 +23,7 @@ const Footer = () => {
         <div className={classes.footerDiv}>
           <div className={classes.footerImageWrapper}>
             <a href="#">
-              <Image src="/Footer/oss_logo.png" fill priority />
+              <Image src={`${prefix + "/Footer/oss_logo.png"}`} fill priority />
             </a>
           </div>
           <div className={classes.footerLinksWrapper}>
@@ -110,7 +112,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

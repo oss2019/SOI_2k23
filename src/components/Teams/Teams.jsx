@@ -1,10 +1,17 @@
-import styles from "./Teams.module.css";
-import Image from "next/image";
-import teamsData from "./data";
+import styles from "./Teams.module.css"
+import Image from "next/image"
+import teamsData from "./data"
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
 
 export default function Teams() {
   return (
-    <div className={styles.teamBody}>
+    <div
+      className={styles.teamBody}
+      style={{
+        backgroundImage: `url(${prefix}/Team/cartographer.png)`,
+      }}
+    >
       <div className={`${styles.teamWrapper}`}>
         <div className={styles.teamsContentWrapper}>
           <div className={styles.teamHeaderWrapper}>
@@ -21,7 +28,7 @@ export default function Teams() {
                     <div key={member.name} className={styles.teamCard}>
                       <div>
                         <Image
-                          src={member.image}
+                          src={prefix + member.image}
                           alt={member.name}
                           width={200}
                           height={200}
@@ -40,7 +47,7 @@ export default function Teams() {
                           >
                             <Image
                               className={styles.linkImage}
-                              src="/Team/Logo/gmail1.png"
+                              src={prefix + "/Team/Logo/gmail1.png"}
                               width={20}
                               height={20}
                               priority
@@ -75,7 +82,7 @@ export default function Teams() {
                             >
                               <Image
                                 className={styles.linkImage}
-                                src="/Team/Logo/twitter1.png"
+                                src={prefix + "/Team/Logo/twitter1.png"}
                                 width={20}
                                 height={20}
                                 priority
@@ -93,7 +100,7 @@ export default function Teams() {
                             >
                               <Image
                                 className={styles.linkImage}
-                                src="/Team/Logo/instagram.png"
+                                src={prefix + "/Team/Logo/instagram.png"}
                                 width={20}
                                 height={20}
                                 priority
@@ -111,5 +118,5 @@ export default function Teams() {
         </div>
       </div>
     </div>
-  );
+  )
 }

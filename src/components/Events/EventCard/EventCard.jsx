@@ -1,5 +1,7 @@
-import styles from "./EventCard.module.css";
-import Image from "next/image";
+import styles from "./EventCard.module.css"
+import Image from "next/image"
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
 
 export default function EventCard({ leftSideImage, data, number }) {
   return (
@@ -23,7 +25,11 @@ export default function EventCard({ leftSideImage, data, number }) {
               <a href={data.knowMoreLink}>
                 <div>Know More</div>
                 <div className={styles.buttonImage}>
-                  <Image src="/Events/event-button.svg" fill priority />
+                  <Image
+                    src={`${prefix + "/Events/event-button.svg"}`}
+                    fill
+                    priority
+                  />
                 </div>
               </a>
             </div>
@@ -34,11 +40,11 @@ export default function EventCard({ leftSideImage, data, number }) {
             }`}
           >
             <div className={styles.eventImageCard}>
-              <Image src={data.image} fill />
+              <Image src={prefix + data.image} fill />
             </div>
           </div>
         </div>
       </div>
     </>
-  );
+  )
 }

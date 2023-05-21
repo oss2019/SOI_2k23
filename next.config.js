@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/SOI_2k23",
-  assetPrefix: "/SOI_2k23",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
 }
 
 module.exports = nextConfig

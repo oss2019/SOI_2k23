@@ -1,33 +1,31 @@
-import { useState, useEffect } from "react";
-import styles from "./AppBar.module.css";
-import Image from "next/image";
-import Link from "next/link";
+import { useState, useEffect } from "react"
+import styles from "./AppBar.module.css"
+import Image from "next/image"
+import Link from "next/link"
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
 
 export default function AppBar({ current }) {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(false)
 
   //implement nav bar hide
-  const [visible, setVisible] = useState(true);
-  const [previousScrollPosition, setPreviousScrollPosition] = useState(0);
+  const [visible, setVisible] = useState(true)
+  const [previousScrollPosition, setPreviousScrollPosition] = useState(0)
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
-      const visible = previousScrollPosition > currentScrollPos;
+      const currentScrollPos = window.pageYOffset
+      const visible = previousScrollPosition > currentScrollPos
 
-      setPreviousScrollPosition(currentScrollPos);
-      setVisible(visible);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [previousScrollPosition]);
+      setPreviousScrollPosition(currentScrollPos)
+      setVisible(visible)
+    }
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [previousScrollPosition])
 
   const hamBurgerClick = () => {
-    setActive(!active);
-  };
-
-
-
-
+    setActive(!active)
+  }
 
   return (
     <div id="homeId#69">
@@ -39,7 +37,7 @@ export default function AppBar({ current }) {
           <div className={styles.logoWrapper}>
             {/* <h1>SOI</h1> */}
             <Image
-              src="/SOI-logo.png"
+              src={`${prefix + "/SOI-logo.png"}`}
               width={70}
               height={50}
               alt="Picture of the author"
@@ -48,8 +46,9 @@ export default function AppBar({ current }) {
           </div>
           <div className={styles.optionsWrapper}>
             <div
-              className={`${styles.optionsMenu} ${active && styles.activeSidebar
-                }`}
+              className={`${styles.optionsMenu} ${
+                active && styles.activeSidebar
+              }`}
             >
               <div className={styles.option}>
                 <Link href="/#hero69" scroll={false}>
@@ -60,13 +59,11 @@ export default function AppBar({ current }) {
                 <Link href="/#eventsId#123" scroll={false}>
                   <div>Events</div>
                 </Link>
-
               </div>
               <div className={styles.option}>
                 <Link href="/#timeline420" scroll={false}>
                   <div>Timeline</div>
                 </Link>
-
               </div>
               <div className={styles.option}>
                 <Link href="/team">
@@ -77,13 +74,13 @@ export default function AppBar({ current }) {
                 <Link href="/#footer123" scroll={false}>
                   <div>Contact</div>
                 </Link>
-
               </div>
             </div>
             <div className={styles.hamBurgerWrapper}>
               <div
-                className={`${styles.hamburger} ${active ? styles.active : styles["not-active"]
-                  }`}
+                className={`${styles.hamburger} ${
+                  active ? styles.active : styles["not-active"]
+                }`}
                 onClick={hamBurgerClick}
               >
                 <span className={styles.spans}></span>
@@ -95,5 +92,5 @@ export default function AppBar({ current }) {
         </div>
       </nav>
     </div>
-  );
+  )
 }
