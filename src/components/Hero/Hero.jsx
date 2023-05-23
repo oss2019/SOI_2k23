@@ -44,7 +44,7 @@ export default function Hero() {
               <h1>Summer of Innovation 2023</h1>
               <div className={styles.heroQuoteWrapper}>
                 <div className={styles.styleBar}></div>
-                <div className={styles.Quote}>Write your quote here</div>
+                <div className={styles.Quote}>This Summer Conquer your<br>fallacies and carve your finesse.</div>
               </div>
             </div>
             <div className={styles.heroArtWrapper}>
