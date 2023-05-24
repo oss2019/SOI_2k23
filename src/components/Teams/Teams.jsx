@@ -51,6 +51,7 @@ export default function Teams() {
                               width={20}
                               height={20}
                               priority
+                              alt="Team Member Logo"
                             />
                           </a>
                           {member.linkedin && (
@@ -68,6 +69,7 @@ export default function Teams() {
                                 width={20}
                                 height={20}
                                 priority
+                                alt="Link Image"
                               />
                             </a>
                           )}

@@ -9,7 +9,6 @@ const Footer = () => {
   const handleOnClick = (id) => {
     const element = document.getElementById(id)
     if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: "smooth" })
     }
   }
@@ -18,24 +17,24 @@ const Footer = () => {
   const year = date.getFullYear()
 
   return (
-    <div id="footer123">
+    <div id="footer">
       <div className={classes.footer}>
         <div className={classes.footerDiv}>
           <div className={classes.footerImageWrapper}>
             <a href="#">
-              <Image src={`${prefix + "/Footer/oss_logo.png"}`} fill priority />
+              <Image src={`${prefix + "/Footer/oss_logo.png"}`} fill priority alt="oss_logo"/>
             </a>
           </div>
           <div className={classes.footerLinksWrapper}>
             <div
-              onClick={() => handleOnClick("hero69")}
+              onClick={() => handleOnClick("hero")}
               aria-current="page"
               className={`${classes.footerlink} ${classes.navLink}`}
             >
               Home
             </div>
             <div
-              onClick={() => handleOnClick("eventsId#123")}
+              onClick={() => handleOnClick("eventsId")}
               className={`${classes.footerlink} ${classes.navLink}`}
             >
               Events

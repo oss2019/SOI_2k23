@@ -28,7 +28,7 @@ export default function Hero() {
 
   return (
     <>
-      <div className={`${styles.heroWrapper}`} id="hero69">
+      <div className={`${styles.heroWrapper}`} id="hero">
         <div className={styles.heroBgContainer}>
           <Image
             src={`${prefix + "/Hero/hero-bg.svg"}`}

@@ -30,7 +30,7 @@ export default function Events() {
 
   return (
     <>
-      <div id="eventsId#123" className={styles.eventsWrapper}>
+      <div id="eventsId" className={styles.eventsWrapper}>
         <div className={styles.eventSunWrapper} ref={SunRef}>
           <Image src={prefix + "/Events/events-sun-1.svg"} fill priority />
         </div>

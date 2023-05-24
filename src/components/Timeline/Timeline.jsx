@@ -13,7 +13,7 @@ export default function Timeline() {
     <>
       <div
         className={styles.timelineWrapper}
-        id="timeline420"
+        id="timeline"
         style={{
           backgroundImage: `url(${prefix}/Timeline/inspiration-geometry.png)`,
         }}
@@ -36,12 +36,9 @@ export default function Timeline() {
                       data.key / 2 ? "timeline-right" : "timeline-left"
                     }`}
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h2 className="vertical-timeline-element-title">
                       {data.title}
-                    </h3>
-                    <h5 className="vertical-timeline-element-subtitle">
-                      {data.location}
-                    </h5>
+                    </h2>
                     <p id="description">{data.description}</p>
                   </VerticalTimelineElement>
                 )

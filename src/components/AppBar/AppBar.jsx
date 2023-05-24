@@ -28,7 +28,7 @@ export default function AppBar({ current }) {
   }
 
   return (
-    <div id="homeId#69">
+    <div id="homeId">
       <nav
         className={styles.navBarWrapper}
         style={{ top: visible ? 0 : "-6rem" }}
@@ -51,17 +51,17 @@ export default function AppBar({ current }) {
               }`}
             >
               <div className={styles.option}>
-                <Link href="/#hero69" scroll={false}>
+                <Link href="/#hero" scroll={false}>
                   <div>Home</div>
                 </Link>
               </div>
               <div className={styles.option}>
-                <Link href="/#eventsId#123" scroll={false}>
+                <Link href="/#eventsId" scroll={false}>
                   <div>Events</div>
                 </Link>
               </div>
               <div className={styles.option}>
-                <Link href="/#timeline420" scroll={false}>
+                <Link href="/#timeline" scroll={false}>
                   <div>Timeline</div>
                 </Link>
               </div>
@@ -71,7 +71,7 @@ export default function AppBar({ current }) {
                 </Link>
               </div>
               <div className={styles.option}>
-                <Link href="/#footer123" scroll={false}>
+                <Link href="/#footer" scroll={false}>
                   <div>Contact</div>
                 </Link>
               </div>
