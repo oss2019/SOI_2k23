@@ -2,11 +2,10 @@ let timeLineData = [
   {
     id: 1,
     title: "Toolset Unbounded",
+    location: "Coding Club, IIT Dharwad",
     description:
-      "Conducted by Coding Club, IIT Dharwad. Registrations started",
-    buttonText: "View Frontend Projects",
-    date: "27th May 23 - Not Decided Yet",
-    icon: "work",
+      "Registrations Started.",
+    date: "27th May - 29th May",
   },
   {
     id: 2,
@@ -21,6 +20,14 @@ let timeLineData = [
   },
   {
     id: 3,
+    title: "Toolset Unbounded",
+    location: "Coding Club, IIT Dharwad",
+    description:
+      "First Report Submission",
+    date: "5th June EOD",
+  },
+  {
+    id: 7,
     title: "Quality Assurance Engineer",
     location: "South Warren, Geshington",
     description:

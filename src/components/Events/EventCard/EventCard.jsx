@@ -29,6 +29,7 @@ export default function EventCard({ leftSideImage, data, number }) {
                     src={`${prefix + "/Events/event-button.svg"}`}
                     fill
                     priority
+                    alt="button"
                   />
                 </div>
               </a>
