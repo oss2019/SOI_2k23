@@ -27,6 +27,38 @@ let timeLineData = [
     date: "5th June EOD",
   },
   {
+    id: 4,
+    title: "Toolset Unbounded",
+    location: "Coding Club, IIT Dharwad",
+    description:
+      "Second Report Submission",
+    date: "12th June EOD",
+  },
+  {
+    id: 5,
+    title: "Toolset Unbounded",
+    location: "Coding Club, IIT Dharwad",
+    description:
+      "Third Report Submission",
+    date: "24th June EOD",
+  },
+  {
+    id: 6,
+    title: "Toolset Unbounded",
+    location: "Coding Club, IIT Dharwad",
+    description:
+      "Final Report Submission",
+    date: "7th July EOD",
+  },
+  {
+    id: 7,
+    title: "Toolset Unbounded",
+    location: "Coding Club, IIT Dharwad",
+    description:
+      "Project Submission, everything that you have worked past 6 weeks on.",
+    date: "9th July EOD",
+  },
+  {
     id: 7,
     title: "Quality Assurance Engineer",
     location: "South Warren, Geshington",

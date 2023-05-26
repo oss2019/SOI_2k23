@@ -1,9 +1,9 @@
 const data =  [
   {
     heading:"Toolset Unbounded",
-    content:"Hint Social is all about finding your clique through the app and in real life. We created a modern and minimalist UI that feels social and engaging. The goal was to appeal to users from all walks of life, and help them navigate the app easily to connect with and meet new people. We made it intuitive, fun and unique.",
+    content:"The problem Statement involves developing a GUI frontend with a user-friendly UI/UX. It includes a secure signup/login page with password/OTP protection. Implement a lossless image and text compression/decompression algorithms. Compressed images are stored in a secure database, and a file management system allows users to add/delete their images. You are free to choose various components, and exploration is encouraged.",
     image:"/Events/IMAGE_CODING_CLUB_01.jpg",
-    knowMoreLink:"https://youtu.be/dQw4w9WgXcQ"
+    knowMoreLink:"https://drive.google.com/file/d/1SLLbRxU4GRLw4iz8uBu03Hyq4k3tj1yb/view?usp=sharing"
   },
   {
     heading:"Chop Dawg",

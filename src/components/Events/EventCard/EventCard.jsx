@@ -22,7 +22,7 @@ export default function EventCard({ leftSideImage, data, number }) {
             </div>
             <div className={styles.eventInfo}>{data.content}</div>
             <div className={styles.knowMore}>
-              <a href={data.knowMoreLink}>
+              <a href={data.knowMoreLink} target="_blank">
                 <div>Know More</div>
                 <div className={styles.buttonImage}>
                   <Image
