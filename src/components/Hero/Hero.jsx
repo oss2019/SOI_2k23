@@ -70,7 +70,7 @@ export default function Hero() {
               <h1>Overview</h1>
             </div>
             <div className={styles.aboutContent}>
-              The third edition of Summer of Innovation is a platform for honing
+              The fourth edition of Summer of Innovation is a platform for honing
               one&rsquo;s technical skills and promoting tech culture in our
               institute. Lasting 3 months, the event comprises of problem
               statements from multiple domains and the participants are allowed
