@@ -76,8 +76,8 @@ export default function Hero() {
               statements from multiple domains and the participants are allowed
               to take part in any number of them. The event is a result of the
               contribution of about every technical organization involved with
-              tech in our institute. This year, the event shall last from 23th
-              of May to 11th of August, for a period of 3 months allowing the
+              tech in our institute. This year, the event shall last from 27th
+              of May and will span majorly the months of June and July, allowing the
               participants to learn the required technical skills from scratch
               and then implementing them in this period.
             </div>
