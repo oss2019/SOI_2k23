@@ -77,7 +77,8 @@ export default function Hero() {
               to take part in any number of them. The event is a result of the
               contribution of about every technical organization involved with
               tech in our institute. This year, the event shall last from 27th
-              of May allowing the participants to learn the required technical skills from scratch
+              of May and will span majorly the months of June and July, allowing the
+              participants to learn the required technical skills from scratch
               and then implementing them in this period.
             </div>
           </div>
