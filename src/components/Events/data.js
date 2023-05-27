@@ -7,6 +7,16 @@ const data = [
     knowMoreLink:
       "https://drive.google.com/file/d/1HV3reLcxYTSBijPtsfizEHURbx_C__c_/view?usp=sharing",
   },
+  {
+    heading: "Alokin - Digital",
+    content: `You have to design a hardware module(i.e. come up with the
+      code) using the programming language- Verilog/VHDL with its
+      functionalities similar to those found in a Washing Machine
+      Controller.`,
+    image: "/Events/Alokin.jpeg",
+    knowMoreLink:
+      "https://drive.google.com/file/d/1gYahKSXWV9wx5_pXfKa22FHRrT18kFV4/view?usp=sharing",
+  },
 ]
 
 export default data
