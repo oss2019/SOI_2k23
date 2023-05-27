@@ -5,10 +5,20 @@ import {
 } from "react-vertical-timeline-component"
 import timeLineData from "./timeline_data"
 import "react-vertical-timeline-component/style.min.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faCode,
+  faMicrochip,
+  faAnchor,
+} from "@fortawesome/free-solid-svg-icons"
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
 
 export default function Timeline() {
+  const icons = {
+    CodingClub: faCode,
+    Alokin: faMicrochip,
+  }
   return (
     <>
       <div
@@ -26,15 +36,17 @@ export default function Timeline() {
           </div>
           <div className={styles.verticalTimelineMain}>
             <VerticalTimeline>
-              {timeLineData.map((data) => {
+              {timeLineData.map((data, index) => {
                 return (
                   <VerticalTimelineElement
-                    key={data.id}
+                    key={index}
                     date={data.date}
                     dateClassName="date"
                     className={`${
                       data.key / 2 ? "timeline-right" : "timeline-left"
                     }`}
+                    iconStyle={{ backgroundColor: data.color }}
+                    icon={<FontAwesomeIcon icon={icons[data.icon]} />}
                   >
                     <h2 className="vertical-timeline-element-title">
                       {data.title}
