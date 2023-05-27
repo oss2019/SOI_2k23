@@ -17,6 +17,13 @@ const data = [
     knowMoreLink:
       "https://drive.google.com/file/d/1gYahKSXWV9wx5_pXfKa22FHRrT18kFV4/view?usp=sharing",
   },
+  {
+    heading: "Alokin - Analog",
+    content: `...`,
+    image: "/Events/Alokin.jpeg",
+    knowMoreLink:
+      "https://drive.google.com/file/d/1UpLDai46hG_Xhu4E1YjxeHKwe82lXAaV/view?usp=sharing",
+  },
 ]
 
 export default data
