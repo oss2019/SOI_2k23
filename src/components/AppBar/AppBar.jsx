@@ -65,8 +65,8 @@ export default function AppBar({ current }) {
                   <div>Timeline</div>
                 </Link>
               </div>
-              <div className={styles.option}>
-                <Link href="/team">
+              <div className={styles.option} style={{ pointerEvents: "none" }}>
+                <Link href="/team" style={{ pointerEvents: "none" }}>
                   <div>Team</div>
                 </Link>
               </div>

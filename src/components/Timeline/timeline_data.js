@@ -3,99 +3,44 @@ let timeLineData = [
     id: 1,
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
-    description:
-      "Registrations Started.",
+    description: "Registrations Started.",
     date: "27th May - 29th May",
   },
   {
     id: 2,
-    title: "Backend Developer",
-    location: "Skystead, Craonia",
-    description:
-      "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. \
-      Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-    buttonText: "View Backend Projects",
-    date: "June 2013 - August 2016",
-    icon: "work",
+    title: "Toolset Unbounded",
+    location: "Coding Club, IIT Dharwad",
+    description: "First Report Submission",
+    date: "5th June EOD",
   },
   {
     id: 3,
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
-    description:
-      "First Report Submission",
-    date: "5th June EOD",
+    description: "Second Report Submission",
+    date: "12th June EOD",
   },
   {
     id: 4,
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
-    description:
-      "Second Report Submission",
-    date: "12th June EOD",
+    description: "Third Report Submission",
+    date: "24th June EOD",
   },
   {
     id: 5,
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
-    description:
-      "Third Report Submission",
-    date: "24th June EOD",
-  },
-  {
-    id: 6,
-    title: "Toolset Unbounded",
-    location: "Coding Club, IIT Dharwad",
-    description:
-      "Final Report Submission",
+    description: "Final Report Submission",
     date: "7th July EOD",
   },
   {
-    id: 7,
+    id: 6,
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
     description:
       "Project Submission, everything that you have worked past 6 weeks on.",
     date: "9th July EOD",
-  },
-  {
-    id: 7,
-    title: "Quality Assurance Engineer",
-    location: "South Warren, Geshington",
-    description:
-      "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-    buttonText: "Company Website",
-    date: "September 2011 - June 2013",
-    icon: "work",
-  },
-  {
-    id: 4,
-    title: "Oak Ridge College",
-    location: "South Warren, Geshington",
-    description:
-      "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-    buttonText: "Course Certificate",
-    date: "September 2011",
-    icon: "school",
-  },
-  {
-    id: 5,
-    title: "Hawking College",
-    location: "Skystead, Craonia",
-    description:
-      "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-    buttonText: "College Projects",
-    date: "2007 - 2011",
-    icon: "school",
-  },
-  {
-    id: 6,
-    title: "Marble Hills Grammar School",
-    location: "Dragontail, Ascana",
-    description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-    date: "2003 - 2007",
-    icon: "school",
   },
 ]
 
