@@ -20,7 +20,7 @@ const data = [
   {
     heading: "Alokin - Analog",
     content: `...`,
-    image: "/Events/Alokin.jpeg",
+    image: "/Events/Alokin_Analog.jpg",
     knowMoreLink:
       "https://drive.google.com/file/d/1UpLDai46hG_Xhu4E1YjxeHKwe82lXAaV/view?usp=sharing",
   },
