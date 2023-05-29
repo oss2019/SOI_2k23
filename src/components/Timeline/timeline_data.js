@@ -3,7 +3,7 @@ let timeLineData = [
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
     description: "Registrations Started.",
-    date: "27th May - 29th May",
+    date: "27th May - 31st May",
     color: "#B983FF",
     icon: "CodingClub",
   },
