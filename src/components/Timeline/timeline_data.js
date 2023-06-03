@@ -13,7 +13,7 @@ let timeLineData = [
     description: "Event Started",
     date: "3rd June EOD",
     color: "#00FFFF",
-    icon: "",
+    icon: "AIwars",
   },
   {
     title: "Alokin - Analog",
@@ -61,7 +61,7 @@ let timeLineData = [
     description: "Submission Deadline",
     date: "16th June EOD",
     color: "#00FFFF",
-    icon: "",
+    icon: "AIwars",
   },
   {
     title: "Toolset Unbounded",
