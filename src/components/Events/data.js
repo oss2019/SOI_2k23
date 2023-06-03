@@ -29,7 +29,14 @@ const data = [
     content: `The game of "Dots and Boxes" begins with an empty grid of dots. Players take turns adding a line of unit length between two unconnected dots. When a player completes the fourth side of a 1x1 box, they earn a point and get another turn. Your goal is to code a bot which performs good at the game.`,
     image: "/Events/AIwars.jpg",
     knowMoreLink:
-      "https://drive.google.com/file/d/1I-VS6n45cYAmGtECH3lCGQpSUYQzBIU-/view",
+      "https://drive.google.com/file/d/1I-VS6n45cYAmGtECH3lCGQpSUYQzBIU-/view?usp=sharing",
+  },
+  {
+    heading: "Drone Dash",
+    content: `An autonomous drone obstacle race! Designed to be a fantastic and fun way to get into robotic algorithms. We've designed it such that you'll learn a lot about robotic operating systems (ROS), robotic perception (computer vision) and autonomous control, all of which are not just key skills for robotics but also the hype these days!`,
+    image: "/Events/Drone_dash.jpg",
+    knowMoreLink:
+      "https://drive.google.com/file/d/1Y2tmllwBCiio3Tqv4EV_jyR7T0Q2UDQM/view?usp=sharing",
   },
 ]
 

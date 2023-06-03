@@ -11,6 +11,7 @@ import {
   faMicrochip,
   faAnchor,
   faBrain,
+  faRobot,
 } from "@fortawesome/free-solid-svg-icons"
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
@@ -20,6 +21,7 @@ export default function Timeline() {
     CodingClub: faCode,
     Alokin: faMicrochip,
     AIwars: faBrain,
+    DroneDash: faRobot,
   }
   return (
     <>
