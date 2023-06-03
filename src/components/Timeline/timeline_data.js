@@ -8,6 +8,14 @@ let timeLineData = [
     icon: "CodingClub",
   },
   {
+    title: "AIWars: Conquer the Battlefield",
+    location: "AI Club, IIT Dharwad",
+    description: "Event Started",
+    date: "3rd June EOD",
+    color: "#00FFFF",
+    icon: "",
+  },
+  {
     title: "Alokin - Analog",
     location: "",
     description: "First Checkpoint",
@@ -46,6 +54,14 @@ let timeLineData = [
     date: "16th June EOD",
     color: "#FFB84C",
     icon: "Alokin",
+  },
+  {
+    title: "AIWars: Conquer the Battlefield",
+    location: "AI Club, IIT Dharwad",
+    description: "Submission Deadline",
+    date: "16th June EOD",
+    color: "#00FFFF",
+    icon: "",
   },
   {
     title: "Toolset Unbounded",
