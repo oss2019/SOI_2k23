@@ -48,6 +48,14 @@ let timeLineData = [
     icon: "Alokin",
   },
   {
+    title: "Route.AI",
+    location: "AI Club, IIT Dharwad",
+    description: "Event Started",
+    date: "10th June",
+    color: "#00FFFF",
+    icon: "AIwars",
+  },
+  {
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
     description: "Second Report Submission",
@@ -86,6 +94,14 @@ let timeLineData = [
     date: "17th June",
     color: "white",
     icon: "DroneDash",
+  },
+  {
+    title: "Route.AI",
+    location: "AI Club, IIT Dharwad",
+    description: "Submission Deadline",
+    date: "17th June",
+    color: "#00FFFF",
+    icon: "AIwars",
   },
   {
     title: "Toolset Unbounded",

@@ -38,6 +38,13 @@ const data = [
     knowMoreLink:
       "https://drive.google.com/file/d/1Y2tmllwBCiio3Tqv4EV_jyR7T0Q2UDQM/view?usp=sharing",
   },
+  {
+    heading: "Route.AI",
+    content: `AI, ML being the most used buzz words these days, this intriguing problem statement which requires you to come up with machine learning algorithms to predict the bus location based on the past data of bus routes, will help you learn, delve deeper in this field and is an opportunity to hone your creativity and skill sets!`,
+    image: "/Events/Route_AI.jpg",
+    knowMoreLink:
+      "https://drive.google.com/file/d/14nf6hInkkpsOvk6v_oCVhfxwwvXXr1tw/view?usp=sharing",
+  },
 ]
 
 export default data
