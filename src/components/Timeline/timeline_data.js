@@ -56,6 +56,14 @@ let timeLineData = [
     icon: "AIwars",
   },
   {
+    title: "Rovernomics",
+    location: "Robotics Club, IIT Dharwad",
+    description: "Registrations Started",
+    date: "10th June",
+    color: "white",
+    icon: "DroneDash",
+  },
+  {
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
     description: "Second Report Submission",
@@ -99,7 +107,7 @@ let timeLineData = [
     title: "Route.AI",
     location: "AI Club, IIT Dharwad",
     description: "Submission Deadline",
-    date: "17th June",
+    date: "17th June EOD",
     color: "#00FFFF",
     icon: "AIwars",
   },
@@ -167,6 +175,14 @@ let timeLineData = [
     date: "9th July EOD",
     color: "#B983FF",
     icon: "CodingClub",
+  },
+  {
+    title: "Rovernomics",
+    location: "Robotics Club, IIT Dharwad",
+    description: "Submission Deadline",
+    date: "9th July EOD",
+    color: "white",
+    icon: "DroneDash",
   },
 ]
 

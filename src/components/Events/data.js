@@ -45,6 +45,13 @@ const data = [
     knowMoreLink:
       "https://drive.google.com/file/d/14nf6hInkkpsOvk6v_oCVhfxwwvXXr1tw/view?usp=sharing",
   },
+  {
+    heading: "Rovernomics",
+    content: `Step into the world of robotics with Rovernomics! Join our exhilarating design competition and explore the vital role of CAD designing in robotics. Teams will craft crucial components for 3D printed robots, showcasing their innovation and problem-solving prowess. From seasoned experts to aspiring enthusiasts, Rovernomics invites you to unleash your creativity and gain practical experience in designing for robots. Get ready for an electrifying adventure that celebrates the fusion of technology and imagination!`,
+    image: "/Events/Rovernomics.jpg",
+    knowMoreLink:
+      "https://drive.google.com/file/d/1v5P_gvIA_YXFxLCZSGHlEbBF5xB9TGdI/view?usp=sharing",
+  },
 ]
 
 export default data
