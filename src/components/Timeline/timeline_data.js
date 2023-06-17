@@ -112,6 +112,22 @@ let timeLineData = [
     icon: "AIwars",
   },
   {
+    title: "Cosmoscope - Juniors",
+    location: "Space Data Science club, IIT Dharwad",
+    description: "Event Started",
+    date: "17th June",
+    color: "#F675A8",
+    icon: "Cosmoscope",
+  },
+  {
+    title: "Cosmoscope - Seniors",
+    location: "Space Data Science club, IIT Dharwad",
+    description: "Event Started",
+    date: "17th June",
+    color: "#00FFAB",
+    icon: "Cosmoscope",
+  },
+  {
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
     description: "Third Report Submission",
@@ -168,6 +184,14 @@ let timeLineData = [
     icon: "CodingClub",
   },
   {
+    title: "Cosmoscope - Juniors",
+    location: "Space Data Science club, IIT Dharwad",
+    description: "End Date",
+    date: "7th July",
+    color: "#F675A8",
+    icon: "Cosmoscope",
+  },
+  {
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
     description:
@@ -183,6 +207,14 @@ let timeLineData = [
     date: "9th July EOD",
     color: "white",
     icon: "DroneDash",
+  },
+  {
+    title: "Cosmoscope - Seniors",
+    location: "Space Data Science club, IIT Dharwad",
+    description: "End Date",
+    date: "14th July",
+    color: "#00FFAB",
+    icon: "Cosmoscope",
   },
 ]
 

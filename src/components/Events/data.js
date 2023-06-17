@@ -52,6 +52,32 @@ const data = [
     knowMoreLink:
       "https://drive.google.com/file/d/1v5P_gvIA_YXFxLCZSGHlEbBF5xB9TGdI/view?usp=sharing",
   },
+  {
+    heading: "Cosmoscope - Juniors",
+    content: `In the distant future, the state of the Earth is degrading.
+    Equipped with advanced space travel, humans have decided
+    to move Beyond the Horizon- searching for habitable
+    exoplanets. You are tasked with finding which stars are worth
+    exploring.`,
+    image: "/Events/cosmoscope_jr.jpg",
+    knowMoreLink:
+      "https://drive.google.com/file/d/1T27l-koc2PvY530UQcoWaVLxAdp6Aa4j/view?usp=sharing",
+  },
+  {
+    heading: "Cosmoscope - Seniors",
+    content: `The Sample Analysis at Mars (SAM) instrument is a key part
+    of NASA’s Curiosity rover mission to explore the red planet.
+    SAM’s main goal is to detect and analyze organic molecules
+    that contain carbon, such as methane, which are essential
+    for life as we know it. Your goal is to discover the existence of
+    specific chemical component families in
+    geological material samples using data
+    from Mars exploration missions and
+    constructing machine learning models.`,
+    image: "/Events/cosmoscope_sr.jpg",
+    knowMoreLink:
+      "https://drive.google.com/file/d/1_GTKtkzw_bR8IZH37onFoBRJIOGngVBz/view?usp=sharing",
+  },
 ]
 
 export default data

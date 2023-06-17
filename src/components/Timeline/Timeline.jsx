@@ -12,6 +12,7 @@ import {
   faAnchor,
   faBrain,
   faRobot,
+  faRocket,
 } from "@fortawesome/free-solid-svg-icons"
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
@@ -22,6 +23,7 @@ export default function Timeline() {
     Alokin: faMicrochip,
     AIwars: faBrain,
     DroneDash: faRobot,
+    Cosmoscope: faRocket,
   }
   return (
     <>
