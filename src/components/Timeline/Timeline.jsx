@@ -13,6 +13,7 @@ import {
   faBrain,
   faRobot,
   faRocket,
+  faArrowTrendUp,
 } from "@fortawesome/free-solid-svg-icons"
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
@@ -24,6 +25,7 @@ export default function Timeline() {
     AIwars: faBrain,
     DroneDash: faRobot,
     Cosmoscope: faRocket,
+    Trade: faArrowTrendUp,
   }
   return (
     <>

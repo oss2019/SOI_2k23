@@ -78,6 +78,18 @@ const data = [
     knowMoreLink:
       "https://drive.google.com/file/d/1_GTKtkzw_bR8IZH37onFoBRJIOGngVBz/view?usp=sharing",
   },
+  {
+    heading: "Hack the trade",
+    content: `Price action trading is a strategy favored by day traders that
+    involves making decisions based on recent price movements
+    rather than relying on indicators or analysis. Common tools
+    include technical patterns, support and resistance levels,
+    candlestick patterns, and trend analysis.Develop automated tools for detecting price action signals such as technical patterns,
+    support and resistance levels, candlestick patterns, and trend analysis.`,
+    image: "/Events/stockmarketimage.jpg",
+    knowMoreLink:
+      "https://drive.google.com/file/d/1c8qUvDKzilgfZPjwe5jAKmab32ayNPK2/view?usp=sharing",
+  },
 ]
 
 export default data

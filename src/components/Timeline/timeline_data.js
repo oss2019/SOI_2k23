@@ -152,6 +152,14 @@ let timeLineData = [
     icon: "DroneDash",
   },
   {
+    title: "Hack the trade",
+    location: "Finance Club, IIT Dharwad",
+    description: "Event Started",
+    date: "24th June",
+    color: "#5A96E3",
+    icon: "Trade",
+  },
+  {
     title: "Alokin - Analog",
     location: "",
     description: "Third Checkpoint",
@@ -190,6 +198,14 @@ let timeLineData = [
     date: "7th July",
     color: "#F675A8",
     icon: "Cosmoscope",
+  },
+  {
+    title: "Hack the trade",
+    location: "Finance Club, IIT Dharwad",
+    description: "Submission Deadline",
+    date: "8th July",
+    color: "#5A96E3",
+    icon: "Trade",
   },
   {
     title: "Toolset Unbounded",
