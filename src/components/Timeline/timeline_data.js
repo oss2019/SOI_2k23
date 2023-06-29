@@ -176,14 +176,6 @@ let timeLineData = [
     icon: "Alokin",
   },
   {
-    title: "Drone Dash",
-    location: "Robotics Club, IIT Dharwad",
-    description: "Final Submission",
-    date: "30th June EOD",
-    color: "white",
-    icon: "DroneDash",
-  },
-  {
     title: "Toolset Unbounded",
     location: "Coding Club, IIT Dharwad",
     description: "Final Report Submission",
@@ -198,6 +190,14 @@ let timeLineData = [
     date: "7th July",
     color: "#F675A8",
     icon: "Cosmoscope",
+  },
+  {
+    title: "Drone Dash",
+    location: "Robotics Club, IIT Dharwad",
+    description: "Final Submission",
+    date: "7th July EOD",
+    color: "white",
+    icon: "DroneDash",
   },
   {
     title: "Hack the trade",
